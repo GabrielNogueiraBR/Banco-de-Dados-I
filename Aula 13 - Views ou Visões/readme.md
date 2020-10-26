@@ -31,7 +31,9 @@ AS
 	`COUNT(TABELA_B.CHAVE)`
 
 - Quando vamos criar uma View, somos **obrigados a definir o nome de todas as colunas** da View (tabela virtual), exemplo:
+```
 	**Errado: **
-	```AVG(Salario)```
+	AVG(Salario)
 	**Certo: **
-	```AVG(Salario) AS MediaSalario```
+	AVG(Salario) AS MediaSalario
+```
